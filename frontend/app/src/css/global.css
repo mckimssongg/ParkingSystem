@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.swal-footer {
+  text-align: center !important;
+  z-index: 9999999;
+}
+
+.HoverStandar:hover {
+  outline: auto 1px rgb(155, 178, 255);
+  box-shadow: 0 0 15px rgb(163, 184, 253);
+}
+
+.heigthTableStandar {
+  height: 62vh;
+}
+
+.menorZindex {
+  z-index: 5 !important;
+}
+
+.NotTitle {
+  display: block !important;
+}
+.YesBadge {
+  display: none !important;
+}
+/* media queri apartir de los 600px */
+@media screen and (min-width: 600px) {
+  .NotTitle {
+    display: none !important;
+  }
+  .YesBadge {
+    display: inline-block !important;
+  }
+}
